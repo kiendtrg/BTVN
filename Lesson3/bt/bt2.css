@@ -1,0 +1,106 @@
+.header{
+    border: 1px solid yellow;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.ava{
+    border: 1px solid purple;
+    background-color: plum;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+.headheader{
+    display: flex;
+    margin-left: 30px;
+}
+.textshop{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.tailheader{
+    display: flex;
+}
+.box{
+    margin-right: 20px;
+}
+.cart{
+    border: 1px solid blue;
+    background-color: aqua;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+
+.footer{
+    border: 1px solid yellow;
+    padding-left: 30px;
+    display: flex;
+    justify-content: start;
+    background-color: lightgoldenrodyellow;
+}
+.address{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.sdt{
+    padding-top: 35px;
+}
+
+.item{
+    width: 1200px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+}
+.imageitem{
+    width: 50%;
+    height: 100%;
+
+}
+.contentitem{
+    width: 50%;
+    height: 100%;
+    padding-left: 30px;
+}
+.smallimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.small{
+    margin-bottom: 10px;
+margin-top: 5px ;
+}
+.feedbackbox{
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.fbtop{
+    width: 96%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.customer{
+    display: flex;
+}
+
+

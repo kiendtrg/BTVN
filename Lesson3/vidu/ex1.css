@@ -1,0 +1,36 @@
+.task{
+    border: 1px solid gray;
+    background-color: lightgrey;
+    width: 100%;
+    height: 20px;
+    border-radius: 20px; 
+}
+div{
+    margin-bottom: 20px;
+}
+.process{
+    border: 1px solid blue;
+    background-color: blue;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container{
+    position: relative;
+}
+.mot{
+    width: 25%;
+}
+.hai{
+    width: 50%;
+}
+.ba{
+    width: 75%;
+}
+.bon{
+    width: 100%;
+    border-radius: 20px;
+}

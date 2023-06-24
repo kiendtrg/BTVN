@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN3</title>
+    <style>
+        .container{
+            border: 1px solid blue;
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 200px;
+            height: 500px;
+        }
+        .box{
+            border: 1px solid yellow;
+            background-color: burlywood;
+            margin: 10px;
+            height: 50px;
+            padding-left: 65px;
+            padding-top: 20px;
+        }
+        .text{
+            text-align: center;
+        }
+        .nofi{
+            display: none;
+            position: absolute;
+            left: 250px;
+            top: 100px;
+            text-align: center;
+        }
+        .bar{
+            border: 1px solid black;
+            margin: 0px;
+            width: 100px;
+            height: 50px;
+        }
+        .show{
+            position: relative;
+        }
+        .show:hover ~ .nofi {
+          display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="box">Home</div>
+            <div class="box show">Users</div>
+            <div class="box">Products</div>
+            <div class="box">Orders</div>
+        </div>
+        <div class="text">Copyright 2022</div>
+    </div>
+
+    <div class="nofi">
+        <div class="bar">Customers</div>
+        <div class="bar">Admins</div>
+        <div class="bar">VIP</div>
+        <div class="bar">My Staffs</div>
+    </div>
+</body>
+</html>

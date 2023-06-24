@@ -1,0 +1,23 @@
+body{
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+button{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 140px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+h2{
+    margin-left: 10px;
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

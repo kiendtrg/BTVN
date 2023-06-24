@@ -1,0 +1,84 @@
+.header{
+    max-width: 1025px;
+    height: 72px;
+    padding: 16px, 24px, 16px, 24px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headheader{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+.searchbar{
+    width: 471px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.tailheader{
+    display: flex;
+    align-items: center;
+}
+img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.speaker{
+    display: flex;
+    align-items: center;
+}
+.body{
+    width: 977px;
+    height: 936px; 
+}
+.profilebox{
+    width: 476px;
+    height: 296px;
+    border: 1px solid orange;
+    background-color: rgb(237, 203, 140);
+    border-radius: 15px;
+    display: flex;
+    
+}
+.selfiebox{
+    width: 50%;
+    height: 100%;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+.contact{
+    display: flex;
+    margin-top: 16px;
+}
+
+.image{
+    margin-top: 16px;
+}
+.aboutbox{
+    margin-left: 16px;
+}
+.language{
+    display: flex;
+}
+.social{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 0px;
+    width: 60%;
+}
+.imgsc{
+    margin-left: 10px;
+    width: 20%;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+}

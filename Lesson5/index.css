@@ -1,0 +1,65 @@
+.header{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ava{
+    width: 40px;
+    height: 40px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 100%;
+}
+.headheader{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.tailheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bodycontent{
+        width: 900px;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+}
+.imagefilm{
+    width: 50%;
+    height: 100%;
+}
+.namefilm{
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.filmbutton{
+    display: flex;
+    margin-top: 10px;
+}
+.textmota{
+    border: 1px solid black;
+    width: 900px;
+    padding: 10px 10px 10px 10px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.actor{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.actorlist{
+    display: flex;
+}
+.mybody{
+    margin-left: 200px;
+}
