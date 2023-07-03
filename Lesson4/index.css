@@ -82,3 +82,40 @@ img{
     justify-content: space-between;
     margin-left: 20px;
 }
+@media only screen and (min-width: 720px) and (max-width: 1024px){
+     .header{
+    width: 720px;
+    
+     }
+     .address{
+        display: none;
+     }
+     .language{
+        display: none;
+     }
+     .searchbar{
+        min-width: 166px;
+        height: 40px;
+        
+    }
+    .profilebox{
+        width: 328px;
+        height: 228px;
+    }
+    .image{
+        width: 168px;
+        height: 156px;
+    }
+
+}
+
+@media only screen and (min-width: 510px) and (max-width: 719px){
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 509px){
+    
+}
