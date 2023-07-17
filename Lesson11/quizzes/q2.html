@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="numbera"><br>
+    <input type="number" id="numberb">
+    <div>
+        <button id="cong">+</button>
+        <button id="tru">-</button>
+    </div>
+    <div>
+        <span>Ket qua:</span>
+        <span id="result"></span>
+    </div>
+
+    <script>
+        let n1 = document.getElementById('numbera').value;
+        let n2 = document.getElementById('numberb').value;
+        let rs = document.getElementById('result');
+
+        let cong = document.getElementById('cong');
+        cong.onclick = function(){
+            let tong = n1 + n2;
+            rs.value = tong;
+
+        }
+        let tru = document.getElementById('tru');
+        tru.onclick = function(){
+            let hieu = n1 - n2;
+            rs.value = hieu;
+            
+        }
+
+
+    </script>
+</body>
+</html>

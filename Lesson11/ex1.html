@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: space-around;">
+        <div class="input">
+            <div>URL</div>
+            <input type="text" id="url">
+            <div>Chieu rong(px)</div>
+            <input type="text" id="width">
+            <div>Chieu cao(px)</div>
+            <input type="text" id="height">
+            <div>Bo goc(px)</div>
+            <input type="text" id="rad">
+            <div>Alt</div>
+            <input type="text" id="al">
+        </div>
+        <div>
+            <img 
+            id="image"
+            src="https://hips.hearstapps.com/hmg-prod/images/domestic-cat-lies-in-a-basket-with-a-knitted-royalty-free-image-1592337336.jpg?crop=0.668xw:1.00xh;0.247xw,0&resize=1200:*" 
+            alt="cat"
+            width="100px"
+            height="100px"
+            >
+        </div>
+    </div>
+
+    <script>
+        let url = document.getElementById('url');
+let image = document.getElementById('image');
+let wid = document.getElementById('width');
+let hei = document.getElementById('height');
+let rad = document.getElementById('rad');
+let al = document.getElementById('al');
+
+url.onchange = function(){
+    image.src = url.value;
+}
+
+wid.onchange = function(){
+    let a = wid.value;
+    image.style.width = a.toString() + 'px';
+}
+
+hei.onchange = function(){
+    let a = hei.value;
+    image.style.height = a.toString() + 'px';
+}
+
+rad.onchange = function(){
+    let a = rad.value;
+    image.style.borderRadius = a.toString() + 'px';
+}
+
+al.onchange = function(){
+    let a = al.value;
+    image.alt = a.toString();
+}
+    </script>
+</body>
+</html>

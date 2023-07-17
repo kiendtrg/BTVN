@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input-work" type="text" placeholder="Nhap noi dung viec moi">
+    <button id="btn">Tao cong viec</button>
+    <h1>Danh sach cong viec can lam</h1>
+    <ul id="list-work">
+        <li class="work">Di choi</li>
+        <li class="work">Lam bai tap</li>
+        <li class="work">Giat quan ao</li>
+    </ul>
+     
+    <script>
+        let inpt = document.getElementById('input-work');
+let lists = document.getElementById('list-work');
+let butn = document.getElementById('btn');
+
+butn.onclick = function() {
+    let news = document.createElement('li');
+    news.setAttribute('class','work');
+    news.innerHTML = inpt.value;
+    lists.appendChild(news);
+}
+    </script>
+</body>
+</html>

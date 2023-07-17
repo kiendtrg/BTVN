@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tbl" border="1" cellpadding="10" cellspacing="5" width="600">
+        <tr id="title">
+            <th>ID</th>
+            <th>name</th>
+            <th>Address</th>
+            <th></th>
+        </tr>
+        <tr id="row1">
+            <th>1</th>
+            <th>Name 1</th>
+            <th>Address 1</th>
+            <th><button id="btn1">Xoa</button></th>
+
+        </tr>
+        <tr id="row2">
+            <th>2</th>
+            <th>Name 2</th>
+            <th>Address 2</th>
+            <th><button id="btn2">Xoa</button></th>
+
+        </tr>
+        <tr id="row3">
+            <th>2</th>
+            <th>Name 2</th>
+            <th>Address 2</th>
+            <th><button id="btn3">Xoa</button></th>
+
+        </tr>
+        <tr id="row4">
+            <th>3</th>
+            <th>Name 3</th>
+            <th>Address 3</th>
+            <th><button id="btn4">Xoa</button></th>
+
+        </tr>
+        <tr id="row5">
+            <th>4</th>
+            <th>Name 4</th>
+            <th>Address 4</th>
+            <th><button id="btn5">Xoa</button></th>
+
+        </tr>
+        
+    </table>
+
+
+    <script>
+        let bt1 = document.getElementById('btn1');
+let row1 = document.getElementById('row1');
+bt1.onclick = ()=>{
+    row1.remove();
+}
+
+let bt2 = document.getElementById('btn2');
+let row2 = document.getElementById('row2');
+bt2.onclick = ()=>{
+    row2.remove();
+}
+
+let bt3 = document.getElementById('btn3');
+let row3 = document.getElementById('row3');
+bt3.onclick = ()=>{
+    row3.remove();
+}
+
+let bt4 = document.getElementById('btn4');
+let row4 = document.getElementById('row4');
+bt4.onclick = ()=>{
+    row4.remove();
+}
+
+let bt5 = document.getElementById('btn5');
+let row5 = document.getElementById('row5');
+bt5.onclick = ()=>{
+    row5.remove();
+}
+    </script>
+</body>
+</html>

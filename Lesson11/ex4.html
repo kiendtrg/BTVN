@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dang ky tai khoan</h1>
+    <div>
+        <span>Ho va ten*</span>
+        <input type="text" id="names">
+    </div>
+    <div>
+        <span>Gioi tinh</span>
+        <select name="" id="sex">
+            <option value="">Nam</option>
+            <option value="">Nu</option>
+        </select>
+    </div>
+    <div>
+        <span>Tuoi</span>
+        <input type="text" id="age">
+    </div>
+    <div>
+        <span>Dia chi</span>
+        <input type="text" id="addr">
+    </div>
+    <div>
+        <span>Email*</span>
+        <input type="text" id="mail">
+    </div>
+    <div>
+        <span>Mat khau*</span>
+        <input type="text" id="pwd">
+    </div>
+    <div>
+        <button id="btn">Dang ky</button>
+    </div>
+
+    <script>
+        let names = document.getElementById('names');
+let sex = document.getElementById('sex');
+let age = document.getElementById('age');
+let addr = document.getElementById('addr');
+let email = document.getElementById('mail');
+let pwd = document.getElementById('pwd');
+
+email.onchange = ()=>{
+    let a = email.value;
+    if(a.indexOf('@gmail.com')==-1){
+        alert('email khong dung dinh dang @gmail.com');
+    }
+}
+
+pwd.onchange = ()=>{
+    let b = pwd.value;
+    if(b.length<6){
+       alert('mat khau phai nhieu hon 6 ki tu');
+    }
+}
+
+
+let btn = document.getElementById('btn');
+btn.onclick = ()=>{
+    let a = names.value;
+    let b = email.value;
+    let c = pwd.value;
+    if(a==''||b==''||c==''){
+        alert('Moi ban nhap thong tin bat buoc *');
+    }
+    else{
+        alert('dang ky thanh cong');
+    }
+
+
+}
+
+    </script>
+</body>
+</html>

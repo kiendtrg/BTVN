@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="my-email" placeholder="email">
+
+    <script>
+        let a = document.getElementById('my-email');
+        a.onchange = ()=>{
+            let n = a.value;
+            if(n.indexOf('@gmail.com')==-1){
+                alert('sai dinh dang email');
+            }
+            else{
+                alert('email hop le');
+            }
+        }
+    </script>
+</body>
+</html>

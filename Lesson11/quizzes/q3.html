@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://cdn-amz.woka.io/images/I/81b7K7jcFdL.jpg" id="image" width="100px" height="100px">
+    <div>
+        <button id="tang">Tang kich thuoc</button>
+        <button id="giam">Giam kich thuoc</button>
+
+    </div>
+    <script>
+        let size = document.getElementById('image');
+let wi = size.getAttribute('width');
+let he = size.getAttribute('height')
+
+
+let up = document.getElementById('tang');
+up.onclick = function(){
+    size.style.width = Number(wi.slice(0,3))+10+'px';
+    size.style.height = Number(he.slice(0,3))+10+'px';
+
+}
+
+let down = document.getElementById('giam');
+down.onclick = function(){
+    size.style.width = Number(wi.slice(0,3))-10+'px';
+    size.style.height = Number(he.slice(0,3))-10+'px';
+
+}
+    </script>
+</body>
+</html>
